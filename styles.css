@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar .logo span {
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-links li {
+    margin: 0 20px;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navbar .Iconos {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .Iconos a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navbar .Iconos a img {
+    height: 24px;
+}
+
+.fondito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    background-color: white;
+}
+
+.fondito .text-box {
+    background-color: #fdf0e3;
+    padding: 40px;
+    border-radius: 40px;
+    width: 500px;
+}
+
+.fondito img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.content-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.content-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-portada img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.p-info h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: ce;
+    color: #333; 
+    text-decoration: none;
+}
+
+.p-info a {
+    text-decoration: none;
+    color: inherit; 
+
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 50px;
+    border-top: 1px solid #eaeaea;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h1.logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-section h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section form {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
